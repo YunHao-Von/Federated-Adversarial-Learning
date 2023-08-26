@@ -1,0 +1,1 @@
+torchrun --nproc_per_node=1 --nnode=2 --node_rank=1 --master_addr="192.168.1.101" --master_port=61234 all-reduce_multi-node.py
